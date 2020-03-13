@@ -541,7 +541,7 @@ abstract class AmazonCore
      * Note that this also includes key information such as your Amazon Access Key ID.
      * @return array All of the options for the object.
      */
-    public function getOptions()
+    public function &getOptions()
     {
         return $this->options;
     }
